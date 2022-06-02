@@ -1,0 +1,178 @@
+{
+    "objname": {
+        "questions": [
+            {
+                "questionText": "Who is making Web standards",
+                "options": [
+                    {
+                        "text": "The world wide web Consortium",
+                        "correct": true
+                    },
+                    {
+                        "text": "Microsoft"
+                    },
+                    {
+                        "text": "Mozilla"
+                    },
+                    {
+                        "text": "Google"
+                    }
+                ],
+                "explanation": "world wide web consortium makes web standards"
+            },
+            {
+                "questionText": "Choose the correct HTML element to define important text?",
+                "options": [
+                    {
+                        "text": "important"
+                    },
+                    {
+                        "text": "i"
+                    },
+                    {
+                        "text": "b"
+                    },
+                    {
+                        "text": "strong",
+                        "correct": true
+                    }
+                ],
+                "explanation": "strong is used to define important text in HTML"
+            },
+            {
+                "questionText": "Which character is used to indicate an end tag?",
+                "options": [
+                    {
+                        "text": "*"
+                    },
+                    {
+                        "text": "/",
+                        "correct": true
+                    },
+                    {
+                        "text": "^"
+                    },
+                    {
+                        "text": "&"
+                    }
+                ],
+                "explanation": " we use / to end a tag"
+            },
+            {
+                "questionText": "which of these elements are all <table> elements",
+                "options": [
+                    {
+                        "text": "<table><tr><tt>"
+                    },
+                    {
+                        "text": "<table><tr><td>",
+                        "correct": true
+                    },
+                    {
+                        "text": "<table><head><tfoot>"
+                    },
+                    {
+                        "text": "<thead><body><tr>?"
+                    }
+                ],
+                "explanation": "<table><tr><td> is used in <table>"
+            },
+            {
+                "questionText": "What is the correct HTML for making a drop-down list",
+                "options": [
+                    {
+                        "text": "<list>",
+                        "correct": true
+                    },
+                    {
+                        "text": "<select>"
+                    },
+                    {
+                        "text": "<input type=list>"
+                    },
+                    {
+                        "text": "<input type=dropdown>"
+                    }
+                ],
+                "explanation": "<select> is used for drop-down"
+            },
+            {
+                "questionText": "What is the command to get the current status of the Git repository?",
+                "options": [
+                    {
+                        "text": "git config --status"
+                    },
+                    {
+                        "text": "git statue"
+                    },
+                    {
+                        "text": "--status"
+                    },
+                    {
+                        "text": "git status",
+                        "correct": true
+                    }
+                ],
+                "explanation": "git status is the command to get the current status of the Git repository"
+            },
+            {
+                "questionText": "What is the command to initialize Git on the current repository?",
+                "options": [
+                    {
+                        "text": "Initialize git "
+                    },
+                    {
+                        "text": "git init",
+                        "correct": true
+                    },
+                    {
+                        "text": "start git"
+                    },
+                    {
+                        "text": "git start"
+                    }
+                ],
+                "explanation": "git init is the command to initialize Git on the current repository"
+            },
+            {
+                "questionText": "What is the command to view the history of commits for the repository?",
+                "options": [
+                    {
+                        "text": "git log",
+                        "correct": true
+                    },
+                    {
+                        "text": "git history"
+                    },
+                    {
+                        "text": "git --full-log"
+                    },
+                    {
+                        "text": "git commits"
+                    }
+                ],
+                "explanation": "git log is the command to view the history of commits for the repository"
+            },
+            {
+                "questionText": "What is the command to move to the branch named new-email?",
+                "options": [
+                    {
+                        "text": "git branch -move new-email"
+                        
+                    },
+                    {
+                        "text": "git branch new-email",
+                        "correct": true
+                    },
+                    {
+                        "text": "git checkout branch new-email"
+                    },
+                    {
+                        "text": "git checkout new mail"
+                    }
+                ],
+                "explanation": "git branch branchname is the command to move to the branch "
+            }
+        ]
+    }
+}

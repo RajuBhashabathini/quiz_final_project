@@ -1,0 +1,150 @@
+<app-headertwo></app-headertwo>
+<div class="body">
+    <div class="d-flex justify-content-around ">
+        <div class="options">
+            <h1>HI</h1>
+        </div>
+        <div class="buttons">
+            <h1>{{session}}</h1>
+        </div>
+    </div>
+
+    <div *ngIf="questionnumber<25">
+
+        <div class="d-flex justify-content-around" style="background-color: lightgreen;">
+            <div class="score">
+                <h2>{{points}}POINTS </h2>
+            </div>
+            <div class="questionnumber">
+                <h2> QUESTION {{questionnumber+1}} of 25 </h2>
+            </div>
+            <div class="timer">
+                <h2> {{timer}} Seconds Remaining </h2>
+            </div>
+        </div>
+        <br>
+
+        <div class="progress mt-1">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
+                style="width:{{totaltimer/6}}%">
+            </div>
+        </div>
+        <br>
+        <div class="outer  border">
+            <div class="inner border m-5">
+                <div class="row">
+
+                    <div class="questions m-3 col-3">
+                        <div>
+                        </div>
+
+                        <br> <br> <br> <br>
+
+                        <h1><b> {{questionnumber+1}}.
+                                &nbsp;&nbsp;{{QuestionList?.['objname'].questions[questionnumber].questionText}}</b>
+                        </h1>
+                    </div>
+
+                    <div class="options col-3 m-5">
+                        <ol *ngFor=" let opt of QuestionList?.['objname']?.questions[questionnumber]?.options">
+                            <li (click)="answer(questionnumber+1, opt)">
+                                <div class="card opt">
+                                    <b> {{opt.text}}</b>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                    <!-- This is for webcam -->
+
+                    <div class="col-3">
+                        <div class="container mt-4">
+                            <div *ngIf="isCameraExist; else noCameraExist">
+                                <div style="text-align:center">
+                                    <div class="btn-group">
+                                        <!-- <button type="button" class="btn btn-primary" (click)="takeSnapshot()">Take Picture</button>
+                                        <button type="button" class="btn btn-primary" (click)="changeWebCame(true)">Toggle
+                                            Camera</button> -->
+                                        <button type="button" class="btn btn-primary" (click)="onOffWebCame()">Web
+                                            camera</button>
+                                    </div> <br />
+                                    <webcam [height]="300" [width]="300" [trigger]="triggerObservable"
+                                        (imageCapture)="handleImage($event)" *ngIf="showWebcam"
+                                        [switchCamera]="nextWebcamObservable">
+                                    </webcam>
+                                </div>
+
+                                <div *ngIf="errors.length > 0">
+                                    <h4>Error Messages:</h4>
+                                    <ul *ngFor="let error of errors">
+                                        <li>{{ error | json }}</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <ng-template #noCameraExist>
+                                Camera device not available
+                            </ng-template>
+                        </div>
+
+                    </div>
+                    <!-- This is for webcam -->
+
+                </div>
+            </div>
+
+
+            <div class="container" *ngIf="questionnumber<25">
+
+                <div class="d-flex justify-content-end p-3">
+                    <button (click)="nextquestion()" class="btn btn-success">Next Question</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="d-flex justify-content-center row text-light" style="background-color: rgb(80, 128, 145);"
+        *ngIf="questionnumber>=25">
+        <div class="col">
+            <pre>
+
+
+
+                <h1>  Congratulations....!!!!
+                 You have complted the Quiz
+                 </h1>
+
+
+
+            </pre>
+        </div>
+
+
+        <div class="col" style="height: 500px; width: 300px">
+
+            <pre>
+            <b> <h1>Your score is ----> {{points}} points </h1>  </b>
+
+            <b> <h1>Your percentage is ----> {{points/2.50}} % </h1>   </b>
+
+            <b>  <h1>Num Of Questions answered Correctly are {{correctAnswers}}</h1> </b>
+
+            <b><h1>Num of Questione answered Wrong are {{wrongAnswers}}</h1> </b>
+            </pre>
+        </div>
+    </div>
+
+    <div class="container d-flex justify-content-center " *ngIf="questionnumber>=25">
+
+
+
+        <button type="button" [routerLink]="['/sidebar']">Another Topic</button>
+
+
+
+
+
+    </div>
+
+</div>

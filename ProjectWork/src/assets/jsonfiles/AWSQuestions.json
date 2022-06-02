@@ -1,0 +1,178 @@
+{
+    "objname": {
+        "questions":
+         [
+            {
+                "questionText": "What is the central application in AWS portfolio",
+                "options": [
+                    {
+                        "text": "Amazon Simple Queue Service"
+                    },
+                    {
+                        "text": "Amazon Elastic Compute Cloud",
+                        "correct": true
+                    },
+                    {
+                        "text": "Colour and Style sheets"
+                    },
+                    {
+                        "text": "None Of The Above"
+                    }
+                ],
+                "explanation": "Amazon Elastic Compute Cloud is the central application in AWS portfolio "
+            },
+            {
+                "questionText": "Amazon Web serices falls into which of the following cloud computing category?",
+                "options": [
+                    {
+                        "text": "Platform as a service"
+                    },
+                    {
+                        "text": "Software as a Service"
+                    },
+                    {
+                        "text": "Infrastructure as a Service",
+                        "correct": true
+                    },
+                    {
+                        "text": "Back-end as a Service"
+                    }
+                ],
+                "explanation": "Amazon Web serices falls into Infrastructure as a Service"
+            },
+            {
+                "questionText": "How  many buckets can you create in AWS by default?",
+                "options": [
+                    {
+                        "text": "200 buckets classes."
+                    },
+                    {
+                        "text": "100 buckets",
+                        "correct": true
+                    },
+                    {
+                        "text": "110 buckets"
+                    },
+                    {
+                        "text": "150 buckets."
+                    }
+                ],
+                "explanation": "We can create 100 buckrts by default"
+            },
+            {
+                "questionText": "Which of the following is message queue or or transaction system for distributed internet-based applications?",
+                "options": [
+                    {
+                        "text": "Amazon Simple Notification Service"
+                    },
+                    {
+                        "text": "Amazon Elastic Compute Cloud"
+                    },
+                    {
+                        "text": "Amazon Simple Queue Service",
+                        "correct": true
+                    },
+                    {
+                        "text": "Amazon Simple Storage System"
+                    }
+                ],
+                "explanation": "Amazon Simple Queue Service is message queyue"
+            },
+            {
+                "questionText": "Which of the following is an online backup and storage system?",
+                "options": [
+                    {
+                        "text": "Amazon Simple Queue Service"
+                    },
+                    {
+                        "text": "Amazon Elastic Compute Cloud"
+                    },
+                    {
+                        "text": "Amazon Simple Notification Service"
+                    },
+                    {
+                        "text": "Amazon Simple Storage System",
+                        "correct": true
+                    }
+                ],
+                "explanation": "Amazon Simple Storage System is online backup and storage system"
+            },
+            {
+                "questionText": "Amazon S3 is which type of storage service?",
+                "options": [
+                    {
+                        "text": "Block"
+                    },
+                    {
+                        "text": "Object",
+                        "correct": true
+                    },
+                    {
+                        "text": "Simple "
+                    },
+                    {
+                        "text": "Secure"
+                    }
+                ],
+                "explanation": "Amazon s3 is Object storage System"
+            },
+            {
+                "questionText": "Amazon Cloudformation is a _________",
+                "options": [
+                    {
+                        "text": "Application Service"
+                    },
+                    {
+                        "text": "Networking Service"
+                    },
+                    {
+                        "text": "Content Delivery Service"
+                    },
+                    {
+                        "text": "Deployment and management service",
+                        "correct": true
+                    }
+                ],
+                "explanation": "Amazon Cloudformation is a Deployment and management service "
+            },
+            {
+                "questionText": "Amazon web services is which type of cloud computing distribution model?",
+                "options": [
+                    {
+                        "text": "Platform as a Service",
+                        "correct": true
+                    },
+                    {
+                        "text": "Software as a Service"
+                    },
+                    {
+                        "text": "Infrastructure as a service"
+                    },
+                    {
+                        "text": "None"
+                    }
+                ],
+                "explanation": "Amazon web services is PAAS type of cloud computing distribution model"
+            },
+            {
+                "questionText": "File and Storage falls into which of the following basic role categories?",
+                "options": [
+                    {
+                        "text": "Application as a Service",
+                        "correct": true
+                    },
+                    {
+                        "text": "User Services"
+                    },
+                    {
+                        "text": "System Srvices"
+                    },
+                    {
+                        "text": "None"
+                    }
+                ],
+                "explanation": "File and Storage falls into Allpication as a service basic role categories"
+            }
+        ]
+    }
+}

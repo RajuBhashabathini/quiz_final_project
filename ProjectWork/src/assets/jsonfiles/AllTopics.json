@@ -1,0 +1,483 @@
+{
+    "objname": {
+        "questions":
+         [
+            {
+                "questionText": "The full form of CSS is:",
+                "options": [
+                    {
+                        "text": "Cascading Style sheets",
+                        "correct": true
+                    },
+                    {
+                        "text": "Coloured Special Sheets"
+                    },
+                    {
+                        "text": "Colour and Style sheets"
+                    },
+                    {
+                        "text": "None Of The Above"
+                    }
+                ],
+                "explanation": "TS uses a colon (:) to separate the property name from the property type"
+            },
+            {
+                "questionText": "Which of the following is NOT a type used in TypeScript?",
+                "options": [
+                    {
+                        "text": "number"
+                    },
+                    {
+                        "text": "string"
+                    },
+                    {
+                        "text": "boolean"
+                    },
+                    {
+                        "text": "enum",
+                        "correct": true
+                    }
+                ],
+                "explanation": "enum is not used as a type in TypeScript"
+            },
+            {
+                "questionText": "Amazon S3 is which type of storage service?",
+                "options": [
+                    {
+                        "text": "Block"
+                    },
+                    {
+                        "text": "Object",
+                        "correct": true
+                    },
+                    {
+                        "text": "Simple "
+                    },
+                    {
+                        "text": "Secure"
+                    }
+                ],
+                "explanation": "Amazon s3 is Object storage System"
+            },
+            {
+                "questionText": "Amazon Cloudformation is a _________",
+                "options": [
+                    {
+                        "text": "Application Service"
+                    },
+                    {
+                        "text": "Networking Service"
+                    },
+                    {
+                        "text": "Content Delivery Service"
+                    },
+                    {
+                        "text": "Deployment and management service",
+                        "correct": true
+                    }
+                ],
+                "explanation": "Amazon Cloudformation is a Deployment and management service "
+            },
+            {
+                "questionText": "Amazon web services is which type of cloud computing distribution model?",
+                "options": [
+                    {
+                        "text": "Platform as a Service",
+                        "correct": true
+                    },
+                    {
+                        "text": "Software as a Service"
+                    },
+                    {
+                        "text": "Infrastructure as a service"
+                    },
+                    {
+                        "text": "None"
+                    }
+                ],
+                "explanation": "Amazon web services is PAAS type of cloud computing distribution model"
+            },
+            {
+                "questionText": "How to modify a border image using CSS3?",
+                "options": [
+                    {
+                        "text": "border:url(image.png)"
+                    },
+                    {
+                        "text": "border-variable:ImageUrl(image.png)"
+                    },
+                    {
+                        "text": "border-image:url(border.png) 30 30 round",
+                        "correct": true
+                    },
+                    {
+                        "text": "none"
+                    }
+                ],
+                "explanation": "border-image:url(border.png) 30 30 round can be used to modify border image"
+            },
+            {
+                "questionText": "The property in CSS used to change background color of  an element is -?",
+                "options": [
+                    {
+                        "text": "bgcolor"
+                    },
+                    {
+                        "text": "color"
+                    },
+                    {
+                        "text": "background-color",
+                        "correct": true
+                    },
+                    {
+                        "text": "All th above"
+                    }
+                ],
+                "explanation": "background-color is used to change background color of  an element"
+            },
+            {
+                "questionText": "The HTML attribute used to define the inline style is?",
+                "options": [
+                    {
+                        "text": "style",
+                        "correct": true
+                    },
+                    {
+                        "text": "styles"
+                    },
+                    {
+                        "text": "class"
+                    },
+                    {
+                        "text": "none"
+                    }
+                ],
+                "explanation": "The HTML attribute used to define the inline style is Style "
+            },
+            {
+                "questionText": "How can we specify properties and methods for an object in TypeScript?",
+                "options": [
+                    {
+                        "text": "Use classes."
+                    },
+                    {
+                        "text": "Use interfaces.",
+                        "correct": true
+                    },
+                    {
+                        "text": "Use enums."
+                    },
+                    {
+                        "text": "Use async/await."
+                    }
+                ],
+                "explanation": "interfaces are typically used to list the properties and methods for an object"
+            },
+            {
+                "questionText": "How else can Array<number> be written in TypeScript?",
+                "options": [
+                    {
+                        "text": "@number"
+                    },
+                    {
+                        "text": "number[]",
+                        "correct": true
+                    },
+                    {
+                        "text": "number!"
+                    },
+                    {
+                        "text": "number?"
+                    }
+                ],
+                "explanation": "number[] is another way of writing Array<number> in TypeScript"
+            },
+            {
+                "questionText": "In which of these does a class take parameters?",
+                "options": [
+                    {
+                        "text": "constructor",
+                        "correct": true
+                    },
+                    {
+                        "text": "destructor"
+                    },
+                    {
+                        "text": "import"
+                    },
+                    {
+                        "text": "subscribe"
+                    }
+                ],
+                "explanation": "a constructor is used by a class to take in parameters"
+            },
+            {
+                "questionText": "which of these elements are all <table> elements",
+                "options": [
+                    {
+                        "text": "<table><tr><tt>"
+                    },
+                    {
+                        "text": "<table><tr><td>",
+                        "correct": true
+                    },
+                    {
+                        "text": "<table><head><tfoot>"
+                    },
+                    {
+                        "text": "<thead><body><tr>?"
+                    }
+                ],
+                "explanation": "<table><tr><td> is used in <table>"
+            },
+            {
+                "questionText": "What is the correct HTML for making a drop-down list",
+                "options": [
+                    {
+                        "text": "<list>",
+                        "correct": true
+                    },
+                    {
+                        "text": "<select>"
+                    },
+                    {
+                        "text": "<input type=list>"
+                    },
+                    {
+                        "text": "<input type=dropdown>"
+                    }
+                ],
+                "explanation": "<select> is used for drop-down"
+            },
+            {
+                "questionText": "What is the command to get the current status of the Git repository?",
+                "options": [
+                    {
+                        "text": "git config --status"
+                    },
+                    {
+                        "text": "git statue"
+                    },
+                    {
+                        "text": "--status"
+                    },
+                    {
+                        "text": "git status",
+                        "correct": true
+                    }
+                ],
+                "explanation": "git status is the command to get the current status of the Git repository"
+            },
+            {
+                "questionText": "Which is NOT an access modifier?",
+                "options": [
+                    {
+                        "text": "private"
+                    },
+                    {
+                        "text": "protected"
+                    },
+                    {
+                        "text": "public"
+                    },
+                    {
+                        "text": "async",
+                        "correct": true
+                    }
+                ],
+                "explanation": "async is not used as an access modifier type in TypeScript"
+            },
+            {
+                "questionText": "Which keyword allows us to share information between files in TypeScript?",
+                "options": [
+                    {
+                        "text": "import"
+                    },
+                    {
+                        "text": "export",
+                        "correct": true
+                    },
+                    {
+                        "text": "async"
+                    },
+                    {
+                        "text": "constructor"
+                    }
+                ],
+                "explanation": "the export keyword allows for the information to be transmitted between files"
+            },
+            {
+                "questionText": "Which is an array method to generate a new array based on a condition?",
+                "options": [
+                    {
+                        "text": "filter",
+                        "correct": true
+                    },
+                    {
+                        "text": "map"
+                    },
+                    {
+                        "text": "async"
+                    },
+                    {
+                        "text": "enum"
+                    }
+                ],
+                "explanation": "filter is a method used to conditionally create a new array"
+            },
+            {
+                "questionText": "Which of the following statements is most correct?",
+                "options": [
+                    {
+                        "text": "Docker allows you to run images and build containers"
+                    },
+                    {
+                        "text": "Docker allows you to run containers and build images",
+                        "correct": true
+                    },
+                    {
+                        "text": "Docker allows you to run and build containers"
+                    },
+                    {
+                        "text": "Docker allows you to run and build images"
+                    }
+                ],
+                "explanation": "Docker allows you to run containers and build images"
+            },
+            {
+                "questionText": "The Docker logo is:",
+                "options": [
+                    {
+                        "text": "a butler"
+                    },
+                    {
+                        "text": "a sailboat"
+                    },
+                    {
+                        "text": "an Octocat"
+                    },
+                    {
+                        "text": "a whale",
+                        "correct": true
+                    }
+                ],
+                "explanation": "The Docker logo is a whale"
+            },
+            {
+                "questionText": "Which programming language was used to write Docker?",
+                "options": [
+                    {
+                        "text": "Java"
+                    },
+                    {
+                        "text": "C"
+                    },
+                    {
+                        "text": "C++"
+                    },
+                    {
+                        "text": "Go",
+                        "correct": true
+                    }
+                ],
+                "explanation": "Go programming language was used to write Docker"
+            },
+
+            {
+                "questionText": "What is the command to add all files and changes of the current folder to the staging environment of the Git repository??",
+                "options": [
+                    {
+                        "text": "git add --all",
+                        "correct": true
+                    },
+                    {
+                        "text": "git add --files"
+                    },
+                    {
+                        "text": "git add"
+                    },
+                    {
+                        "text": "git addition"
+                    }
+                ],
+                "explanation": "git add --all is the command to add all files and changes of the current folder to the staging environment of the Git repository"
+            },
+            {
+                "questionText": "What is the command to get the current status of the Git repository?",
+                "options": [
+                    {
+                        "text": "git config --status"
+                    },
+                    {
+                        "text": "git statue"
+                    },
+                    {
+                        "text": "--status"
+                    },
+                    {
+                        "text": "git status",
+                        "correct": true
+                    }
+                ],
+                "explanation": "git status is the command to get the current status of the Git repository"
+            },
+            {
+                "questionText": "What is the command to initialize Git on the current repository?",
+                "options": [
+                    {
+                        "text": "Initialize git "
+                    },
+                    {
+                        "text": "git init",
+                        "correct": true
+                    },
+                    {
+                        "text": "start git"
+                    },
+                    {
+                        "text": "git start"
+                    }
+                ],
+                "explanation": "git init is the command to initialize Git on the current repository"
+            },
+            {
+                "questionText": "What is the command to view the history of commits for the repository?",
+                "options": [
+                    {
+                        "text": "git log",
+                        "correct": true
+                    },
+                    {
+                        "text": "git history"
+                    },
+                    {
+                        "text": "git --full-log"
+                    },
+                    {
+                        "text": "git commits"
+                    }
+                ],
+                "explanation": "git log is the command to view the history of commits for the repository"
+            },
+            {
+                "questionText": "How is a property accessible within a class?",
+                "options": [
+                    {
+                        "text": "Using this.propertyName",
+                        "correct": true
+                    },
+                    {
+                        "text": "Accessors"
+                    },
+                    {
+                        "text": "Destructuring"
+                    },
+                    {
+                        "text": "Arrow function"
+                    }
+                ],
+                "explanation": "this.propertyName is the way to access a specific property within a class"
+            }
+        ]
+    }
+}

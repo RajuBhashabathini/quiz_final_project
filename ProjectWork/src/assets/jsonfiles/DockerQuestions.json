@@ -1,0 +1,178 @@
+{
+    "objname": {
+        "questions":
+         [
+            {
+                "questionText": "The markup language used to write DockerConfiguration files is :",
+                "options": [
+                    {
+                        "text": "JSON"
+                    },
+                    {
+                        "text": "YAML",
+                        "correct": true
+                    },
+                    {
+                        "text": "XML"
+                    },
+                    {
+                        "text": "HTML"
+                    }
+                ],
+                "explanation": "YAML is used to define how to configure Docker Image"
+            },
+            {
+                "questionText": "Which of the following is  not a container-based alternative to Docker",
+                "options": [
+                    {
+                        "text": "Kubernetes",
+                        "correct": true
+                    },
+                    {
+                        "text": "CoreOS' rkt"
+                    },
+                    {
+                        "text": "Canonical's LXD"
+                    },
+                    {
+                        "text": "Windows Server Containers"
+                    }
+                ],
+                "explanation": "Kubernetes is a orchestration tool that manages Docker Deployments"
+            },
+            {
+                "questionText": "What happens if you attempt to perform a Docker build based on an image that has not been previously referenced on your machine?",
+                "options": [
+                    {
+                        "text": "Docker will return a 408: image not found message"
+                    },
+                    {
+                        "text": "Docker will return a 404: file not found message"
+                    },
+                    {
+                        "text": "Docker will pull the image from GitHub"
+                    },
+                    {
+                        "text": "Docker will pull the image from DockerHub",
+                        "correct": true
+                    }
+                ],
+                "explanation": "Docker will pull the image from DockerHub if we try to build image thats not on our machine"
+            },
+            {
+                "questionText": "Information on how to build a Docker image is written in a file named ",
+                "options": [
+                    {
+                        "text": "Jenskinsfile"
+                    },
+                    {
+                        "text": "Dockerfile",
+                        "correct": true
+                    },
+                    {
+                        "text": "dockercompose"
+                    },
+                    {
+                        "text": "dockerimage"
+                    }
+                ],
+                "explanation": "Information on how to build a Docker image is written in a file named Dockerfile"
+            },
+            {
+                "questionText": "Which of the following statements is most correct?",
+                "options": [
+                    {
+                        "text": "Docker allows you to run images and build containers"
+                    },
+                    {
+                        "text": "Docker allows you to run containers and build images",
+                        "correct": true
+                    },
+                    {
+                        "text": "Docker allows you to run and build containers"
+                    },
+                    {
+                        "text": "Docker allows you to run and build images"
+                    }
+                ],
+                "explanation": "Docker allows you to run containers and build images"
+            },
+            {
+                "questionText": "The Docker logo is:",
+                "options": [
+                    {
+                        "text": "a butler"
+                    },
+                    {
+                        "text": "a sailboat"
+                    },
+                    {
+                        "text": "an Octocat"
+                    },
+                    {
+                        "text": "a whale",
+                        "correct": true
+                    }
+                ],
+                "explanation": "The Docker logo is a whale"
+            },
+            {
+                "questionText": "Which programming language was used to write Docker?",
+                "options": [
+                    {
+                        "text": "Java"
+                    },
+                    {
+                        "text": "C"
+                    },
+                    {
+                        "text": "C++"
+                    },
+                    {
+                        "text": "Go",
+                        "correct": true
+                    }
+                ],
+                "explanation": "Go programming language was used to write Docker"
+            },
+            {
+                "questionText": "A Docker container is often described as an improvement over what other technology?",
+                "options": [
+                    {
+                        "text": "cloud computing"
+                    },
+                    {
+                        "text": "DevOps"
+                    },
+                    {
+                        "text": "virtual machines",
+                        "correct": true
+                    },
+                    {
+                        "text": "microservices"
+                    }
+                ],
+                "explanation": "A Docker container is often described as an improvement over virtual machines"
+            },
+            {
+                "questionText": "How is a property accessible within a class?",
+                "options": [
+                    {
+                        "text": "Using this.propertyName",
+                        "correct": true
+                    },
+                    {
+                        "text": "Accessors"
+                    },
+                    {
+                        "text": "Destructuring"
+                    },
+                    {
+                        "text": "Arrow function"
+                    }
+                ],
+                "explanation": "this.propertyName is the way to access a specific property within a class"
+            }
+        ]
+    }
+}

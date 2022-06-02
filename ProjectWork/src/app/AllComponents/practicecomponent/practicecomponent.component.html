@@ -1,0 +1,56 @@
+<app-header></app-header>
+
+
+<br>
+<div class="body">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
+	<div class="main">
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+		<div class="signup">
+			<form novalidate [formGroup]="myform">
+				<label for="chk" aria-hidden="true">Sign up</label>
+				<input formControlName="FName" type="text" placeholder="Enter FirstName">
+				<div class="text-danger" *ngIf="myform.controls['FName'].touched && myform.controls['FName'].invalid">
+					<p>Please fill your First Name in above field</p>
+				</div>
+				<input formControlName="LName" type="text" placeholder="Enter LastName">
+				<div class="text-info" *ngIf="myform.controls['LName'].touched && myform.controls['LName'].invalid">
+					<p>Please fill your Last Name in above field</p>
+				</div>
+				<input formControlName="Email" type="email" placeholder="Enter email">
+				<div class="text-warning" *ngIf="myform.controls['Email'].touched && myform.controls['Email'].invalid">
+					<p *ngIf="myform.controls['Email'].errors?.['email']">Please correct Email in above field</p>
+					<p *ngIf="myform.controls['Email'].errors?.['minlength']">Your email should have atleast 7
+						characters</p>
+					<p *ngIf="myform.controls['Email'].errors?.['required']">Please give Email in above field</p>
+				</div>
+				<input formControlName="Password" type="password" placeholder="*********">
+				<div class="text-primary"
+					*ngIf="myform.controls['Password'].touched && myform.controls['Password'].invalid">
+					<p> your password shuld be 5-6 characterslong</p>
+				</div>
+				<input formControlName="Number" type="number" placeholder="9876543210">
+				<div class="text-primary"
+					*ngIf="myform.controls['Number'].touched && myform.controls['Number'].invalid">
+					<p> your Number shuld be 10 digits long</p>
+				</div>
+				<button type="submit" [disabled]="!myform.valid" (click)="SignUpForm(myform)"  [routerLink]="['/login']">Sign up </button>
+
+			</form>
+		</div>
+		<br>
+		
+		<div class="row">
+			<div class="col-3"></div>
+			<div class="col">
+				<div class="login">
+					<button type="button" [routerLink]="['/login']">Login</button>
+					<!-- <label for="chk" aria-hidden="true" >Login</label> -->
+				</div>
+			</div>
+			<div class="col"></div>
+		</div>
+	</div>
+</div>

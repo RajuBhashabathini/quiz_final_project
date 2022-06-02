@@ -1,0 +1,178 @@
+{
+    "objname": {
+        "questions":
+         [
+            {
+                "questionText": "How can you create rounded corners using CSS3",
+                "options": [
+                    {
+                        "text": "border[round]:30px"
+                    },
+                    {
+                        "text": "corner-effect:round"
+                    },
+                    {
+                        "text": "border-radius:30px",
+                        "correct": true
+                    },
+                    {
+                        "text": "alpha-effect:round-corner"
+                    }
+                ],
+                "explanation": "border-radius:30px can be used to create rounded corners"
+            },
+            {
+                "questionText": "How do you add shadow elements in CSS3?",
+                "options": [
+                    {
+                        "text": "box-shadow:10px 10px 5px grey",
+                        "correct": true
+                    },
+                    {
+                        "text": "shadow-right: 10px shadow-bottom:10px"
+                    },
+                    {
+                        "text": "shadow-color:grey"
+                    },
+                    {
+                        "text": "alpha-effect[shadow]: 10px 10px 5px grey"
+                    }
+                ],
+                "explanation": "box-shadow:10px 10px 5px grey is used to create shadow element"
+            },
+            {
+                "questionText": "How to force a word wrap using CSS3",
+                "options": [
+                    {
+                        "text": "word-wrap:break-word",
+                        "correct": true
+                    },
+                    {
+                        "text": "text-wrap:break-word"
+                    },
+                    {
+                        "text": "text-wrap:force."
+                    },
+                    {
+                        "text": "text-width:set"
+                    }
+                ],
+                "explanation": "word-wrap:break-word is used to force a word wrap"
+            },
+            {
+                "questionText": "How to rotate objects using CSS3?",
+                "options": [
+                    {
+                        "text": "Object-rotation:30deg"
+                    },
+                    {
+                        "text": "transform:rotate(30deg)",
+                        "correct": true
+                    },
+                    {
+                        "text": "rotate-object:30deg"
+                    },
+                    {
+                        "text": "transform:rotate-30deg-clockwise"
+                    }
+                ],
+                "explanation": "transform:rotate(30deg) is used t rotate objects"
+            },
+            {
+                "questionText": "How to create transition effects using CSS3?",
+                "options": [
+                    {
+                        "text": "transition:width 2s",
+                        "correct": true
+                    },
+                    {
+                        "text": "transition-duration:2s ; transition-effect:width"
+                    },
+                    {
+                        "text": "alpha-effect:transition(width,2s)"
+                    },
+                    {
+                        "text": "none"
+                    }
+                ],
+                "explanation": "transition:width 2s is syntex to use Transition in CSS"
+            },
+            {
+                "questionText": "Box shadow is a property that allows developers to apply a  _____?",
+                "options": [
+                    {
+                        "text": "Border"
+                    },
+                    {
+                        "text": "Drop Shadow",
+                        "correct": true
+                    },
+                    {
+                        "text": "Rounded Corner"
+                    },
+                    {
+                        "text": "Background"
+                    }
+                ],
+                "explanation": "Box shadow is a property that allows developers to apply a   Drop Shadow"
+            },
+            {
+                "questionText": "How to modify a border image using CSS3?",
+                "options": [
+                    {
+                        "text": "border:url(image.png)"
+                    },
+                    {
+                        "text": "border-variable:ImageUrl(image.png)"
+                    },
+                    {
+                        "text": "border-image:url(border.png) 30 30 round",
+                        "correct": true
+                    },
+                    {
+                        "text": "none"
+                    }
+                ],
+                "explanation": "border-image:url(border.png) 30 30 round can be used to modify border image"
+            },
+            {
+                "questionText": "The property in CSS used to change background color of  an element is -?",
+                "options": [
+                    {
+                        "text": "bgcolor"
+                    },
+                    {
+                        "text": "color"
+                    },
+                    {
+                        "text": "background-color",
+                        "correct": true
+                    },
+                    {
+                        "text": "All th above"
+                    }
+                ],
+                "explanation": "background-color is used to change background color of  an element"
+            },
+            {
+                "questionText": "The HTML attribute used to define the inline style is?",
+                "options": [
+                    {
+                        "text": "style",
+                        "correct": true
+                    },
+                    {
+                        "text": "styles"
+                    },
+                    {
+                        "text": "class"
+                    },
+                    {
+                        "text": "none"
+                    }
+                ],
+                "explanation": "The HTML attribute used to define the inline style is Style "
+            }
+        ]
+    }
+}

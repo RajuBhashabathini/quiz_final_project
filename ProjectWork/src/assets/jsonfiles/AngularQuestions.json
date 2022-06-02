@@ -1,0 +1,177 @@
+{
+    "objname": {
+        "questions": [
+            {
+                "questionText": "Which of the following is correct about Typescript?",
+                "options": [
+                    {
+                        "text": "Angular is based on Typescript"
+                    },
+                    {
+                        "text": "This is a superset of Javascript"
+                    },
+                    {
+                        "text": "Typescript is maintained by Microsoft"
+                    },
+                    {
+                        "text": "All Of The Above",
+                        "correct": true
+                    }
+                ],
+                "explanation": "All above are correct"
+            },
+            {
+                "questionText": "What is .subscribe?",
+                "options": [
+                    {
+                        "text": "Streams data in asynchronously"
+                    },
+                    {
+                        "text": "Streams data in synchronously"
+                    },
+                    {
+                        "text": "Both",
+                        "correct": true
+                    },
+                    {
+                        "text": "none of the above"
+                    }
+                ],
+                "explanation": ".subscribe streams data both asynchronously and synchronously"
+            },
+            {
+                "questionText": "Which of the following is not a hook application life cycle?",
+                "options": [
+                    {
+                        "text": "ngObChanges"
+                    },
+                    {
+                        "text": "ngViewStart",
+                        "correct": true
+                    },
+                    {
+                        "text": "ngOnInit."
+                    },
+                    {
+                        "text": "None of the above"
+                    }
+                ],
+                "explanation": "ngViewStart is not a hook application life cycle"
+            },
+            {
+                "questionText": "Router is part of which of the following Module?",
+                "options": [
+                    {
+                        "text": "@angular/core"
+                    },
+                    {
+                        "text": "@angular/router",
+                        "correct": true
+                    },
+                    {
+                        "text": "Both"
+                    },
+                    {
+                        "text": "None"
+                    }
+                ],
+                "explanation": "Router is part of @angular/router "
+            },
+            {
+                "questionText": "RxJs can be used for?",
+                "options": [
+                    {
+                        "text": "Browser"
+                    },
+                    {
+                        "text": "Server Side"
+                    },
+                    {
+                        "text": "Both",
+                        "correct": true
+                    },
+                    {
+                        "text": "None"
+                    }
+                ],
+                "explanation": "RxJs can be used on Both Browser and ServerSide"
+            },
+            {
+                "questionText": "Which is NOT an access modifier?",
+                "options": [
+                    {
+                        "text": "private"
+                    },
+                    {
+                        "text": "protected"
+                    },
+                    {
+                        "text": "public"
+                    },
+                    {
+                        "text": "async",
+                        "correct": true
+                    }
+                ],
+                "explanation": "async is not used as an access modifier type in TypeScript"
+            },
+            {
+                "questionText": "Which keyword allows us to share information between files in TypeScript?",
+                "options": [
+                    {
+                        "text": "import"
+                    },
+                    {
+                        "text": "export",
+                        "correct": true
+                    },
+                    {
+                        "text": "async"
+                    },
+                    {
+                        "text": "constructor"
+                    }
+                ],
+                "explanation": "the export keyword allows for the information to be transmitted between files"
+            },
+            {
+                "questionText": "Which is an array method to generate a new array based on a condition?",
+                "options": [
+                    {
+                        "text": "filter",
+                        "correct": true
+                    },
+                    {
+                        "text": "map"
+                    },
+                    {
+                        "text": "async"
+                    },
+                    {
+                        "text": "enum"
+                    }
+                ],
+                "explanation": "filter is a method used to conditionally create a new array"
+            },
+            {
+                "questionText": "How is a property accessible within a class?",
+                "options": [
+                    {
+                        "text": "Using this.propertyName",
+                        "correct": true
+                    },
+                    {
+                        "text": "Accessors"
+                    },
+                    {
+                        "text": "Destructuring"
+                    },
+                    {
+                        "text": "Arrow function"
+                    }
+                ],
+                "explanation": "this.propertyName is the way to access a specific property within a class"
+            }
+        ]
+    }
+}

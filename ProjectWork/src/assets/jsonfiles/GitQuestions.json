@@ -1,0 +1,178 @@
+{
+    "objname": {
+        "questions": [
+            {
+                "questionText": "What is Git:",
+                "options": [
+                    {
+                        "text": "A version Control System",
+                        "correct": true
+                    },
+                    {
+                        "text": "A Nickname for GitHub"
+                    },
+                    {
+                        "text": "A Programming Language"
+                    },
+                    {
+                        "text": "A remote repository platform"
+                    }
+                ],
+                "explanation": "Git is a Version control system"
+            },
+            {
+                "questionText": "What is the command to get the installed version of Git?",
+                "options": [
+                    {
+                        "text": "gitVersion"
+                    },
+                    {
+                        "text": "getGitVersion"
+                    },
+                    {
+                        "text": "git help version"
+                    },
+                    {
+                        "text": "git --version",
+                        "correct": true
+                    }
+                ],
+                "explanation": "git --version is used to check installed version of git"
+            },
+            {
+                "questionText": "Which option should you use to set the default user name for every repository on your computer?",
+                "options": [
+                    {
+                        "text": "No need to specify, that is the default"
+                    },
+                    {
+                        "text": "--global",
+                        "correct": true
+                    },
+                    {
+                        "text": "A"
+                    },
+                    {
+                        "text": "all"
+                    }
+                ],
+                "explanation": "--global is used to set default username for every repository on our computer"
+            },
+            {
+                "questionText": "What is the command to set the user email for the current repository?",
+                "options": [
+                    {
+                        "text": "git config email"
+                    },
+                    {
+                        "text": "git config user.email",
+                        "correct": true
+                    },
+                    {
+                        "text": "git email.user!"
+                    },
+                    {
+                        "text": "none?"
+                    }
+                ],
+                "explanation": "git config user.email is used to set the user email for the current repository"
+            },
+            {
+                "questionText": "What is the command to add all files and changes of the current folder to the staging environment of the Git repository??",
+                "options": [
+                    {
+                        "text": "git add --all",
+                        "correct": true
+                    },
+                    {
+                        "text": "git add --files"
+                    },
+                    {
+                        "text": "git add"
+                    },
+                    {
+                        "text": "git addition"
+                    }
+                ],
+                "explanation": "git add --all is the command to add all files and changes of the current folder to the staging environment of the Git repository"
+            },
+            {
+                "questionText": "What is the command to get the current status of the Git repository?",
+                "options": [
+                    {
+                        "text": "git config --status"
+                    },
+                    {
+                        "text": "git statue"
+                    },
+                    {
+                        "text": "--status"
+                    },
+                    {
+                        "text": "git status",
+                        "correct": true
+                    }
+                ],
+                "explanation": "git status is the command to get the current status of the Git repository"
+            },
+            {
+                "questionText": "What is the command to initialize Git on the current repository?",
+                "options": [
+                    {
+                        "text": "Initialize git "
+                    },
+                    {
+                        "text": "git init",
+                        "correct": true
+                    },
+                    {
+                        "text": "start git"
+                    },
+                    {
+                        "text": "git start"
+                    }
+                ],
+                "explanation": "git init is the command to initialize Git on the current repository"
+            },
+            {
+                "questionText": "What is the command to view the history of commits for the repository?",
+                "options": [
+                    {
+                        "text": "git log",
+                        "correct": true
+                    },
+                    {
+                        "text": "git history"
+                    },
+                    {
+                        "text": "git --full-log"
+                    },
+                    {
+                        "text": "git commits"
+                    }
+                ],
+                "explanation": "git log is the command to view the history of commits for the repository"
+            },
+            {
+                "questionText": "What is the command to move to the branch named new-email?",
+                "options": [
+                    {
+                        "text": "git branch -move new-email"
+                        
+                    },
+                    {
+                        "text": "git branch new-email",
+                        "correct": true
+                    },
+                    {
+                        "text": "git checkout branch new-email"
+                    },
+                    {
+                        "text": "git checkout new mail"
+                    }
+                ],
+                "explanation": "git branch branchname is the command to move to the branch "
+            }
+        ]
+    }
+}
